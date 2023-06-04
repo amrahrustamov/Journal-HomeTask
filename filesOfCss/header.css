@@ -6,6 +6,9 @@ header {
     height: 35px;
     background-color: rgb(219, 142, 47);
 }
+
+/*TOP HEADER*/
+
 .topHeader {
     display: flex;
     flex-direction: row;
@@ -77,6 +80,7 @@ img {
 /*###########################################################*/
 
 @media only screen and (max-width: 600px) {
+    /*Top Header*/
     .leftColumn-6, .rightColumn-6 {
         display: none;;
     }
@@ -112,5 +116,120 @@ img {
     .boxInColumn-12 p {
         margin-left: 2px;
     }
+
+    /*Buttom Header*/
+
     
+    
+}
+
+
+
+
+/*BUTTOM HEADER*/
+
+header .buttomHeader {
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 70px;
+background-color: rgb(47, 45, 56);
+}
+.searchWithTypes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.choiseSearchType select {
+    height: 35px;
+    width: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px 0 0 5px;
+}
+.choiseSearchType {
+    width: 10%;
+}
+.choiseSearchType select {
+    width: 100%;
+}
+.submit a {
+    width: 100%;
+}
+.search {
+    height: 35px;
+    width: 80%;
+
+}
+.submit {
+    height: 35px;
+    width: 10%;
+}
+.inputSearch {
+    height: 35px;
+    width: 100%;
+
+}
+.submit img {
+    height: 35px;
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+}
+.activiteList img {
+    height: 60%;
+    width: 60%;
+    margin-top: 10px;
+}
+.logoOfJournal {
+    width: 20%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.navBar {
+    width: 5%;
+}
+.searchWithTypes {
+    width: 50%;
+    padding-top: 16px;
+} 
+.choiseList {
+      display: flex;
+      flex-direction: row;
+      width: 25%;
+}
+.choiseList img {
+    background-color: white;
+}
+.activiteList {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 70%;
+      padding-top: 10px;
+}
+.activiteList a p {
+    margin-top: 0px;
+}
+.activiteList a {
+    width: 42px;
+    height: 42px;
+}
+.basket {
+    width: 30%;
+}
+.basket img {
+    height: 70%;
+    width: 70%;
+    margin-top: 10px;
+}
+.logoOfJournal img {
+    width: 80%;
+    height: 80%;
+}
+.navBar {
+    padding-top: 18px;
+}
+.navBar img {
+    width: 70%;
+    height: 70%;
 }
