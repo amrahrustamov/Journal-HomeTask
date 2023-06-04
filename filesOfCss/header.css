@@ -11,12 +11,11 @@ header {
     flex-direction: row;
     width: 100%;
     height: 35px;
-    background-color: bisque;
+    background-color: black;
 }
 .leftColumn-6 {
     width: 50%;
     height: 35px;
-    background-color: rgb(80, 74, 74);
     border-radius: 1px;
 }
 .boxInLeftColumn ul{
@@ -29,7 +28,6 @@ header {
 .rightColumn-6 {
     width: 50%;
     height: 35px;
-    border-color: black;
 }
 .boxInLeftColumn li img {
     width: 25px;
@@ -49,4 +47,40 @@ p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     margin-top: 10px;
+}
+
+/* #######################################################*/
+
+.boxInRightColumn-6 {
+    display: flex;
+    justify-content: end;
+    height: 35px;
+    width: 100%;
+    
+}
+img {
+    background-color: white;
+}
+.boxInRightColumn-6 p {
+    margin-right: 10px;
+}
+.forColorOfHeader {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 35px;
+    background-color: blue;
+    opacity: 0.5;
+    
+}
+
+/*###########################################################*/
+
+@media only screen and (max-width: 600px) {
+    .leftColumn-6, .rightColumn-6 {
+        display: none;;
+    }
+    .column-12ForMobile {
+        display: flex;
+    }
 }
