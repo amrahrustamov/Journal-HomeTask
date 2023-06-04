@@ -1,3 +1,52 @@
 .column-12ForMobile {
     display: none;
 }
+header {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(219, 142, 47);
+}
+.topHeader {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 35px;
+    background-color: bisque;
+}
+.leftColumn-6 {
+    width: 50%;
+    height: 35px;
+    background-color: rgb(80, 74, 74);
+    border-radius: 1px;
+}
+.boxInLeftColumn ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    height: 35px;
+}
+.rightColumn-6 {
+    width: 50%;
+    height: 35px;
+    border-color: black;
+}
+.boxInLeftColumn li img {
+    width: 25px;
+    height: 25px;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.boxInLeftColumn a {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    text-decoration: none;
+}
+p {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+}
