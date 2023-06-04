@@ -1,4 +1,4 @@
-.column-12ForMobile {
+.column-12ForMobile, .underButtomHeaderMobile {
     display: none;
 }
 header {
@@ -78,50 +78,6 @@ img {
 }
 
 /*###########################################################*/
-
-@media only screen and (max-width: 600px) {
-    /*Top Header*/
-    .leftColumn-6, .rightColumn-6 {
-        display: none;;
-    }
-    .column-12ForMobile {
-        display: flex;
-        justify-content: center;
-        margin: 0 25% 0 25%;
-        width: 100%;
-        height: 35px;
-    }
-    .boxInColumn-12 ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        list-style-type: noen;
-        width: 100%;
-        height: 35px;
-    }
-    .boxInColumn-12 ul img {
-        width: 25px;
-        height: 25px;
-    }
-    .boxInColumn-12 {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .boxInColumn-12 a {
-        display: flex;
-        flex-direction: row;
-        margin: 5px 5px 5px 0;
-    }
-    .boxInColumn-12 p {
-        margin-left: 2px;
-    }
-
-    /*Buttom Header*/
-
-    
-    
-}
 
 
 
@@ -204,7 +160,7 @@ background-color: rgb(47, 45, 56);
       display: flex;
       flex-direction: row;
       justify-content: center;
-      width: 70%;
+      width: 100%;
       padding-top: 10px;
 }
 .activiteList a p {
@@ -232,4 +188,106 @@ background-color: rgb(47, 45, 56);
 .navBar img {
     width: 70%;
     height: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+    /*Top Header*/
+    .leftColumn-6, .rightColumn-6 {
+        display: none;;
+    }
+    .column-12ForMobile {
+        display: flex;
+        justify-content: center;
+        margin: 0 25% 0 25%;
+        width: 100%;
+        height: 35px;
+    }
+    .boxInColumn-12 ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style-type: noen;
+        width: 100%;
+        height: 35px;
+    }
+    .boxInColumn-12 ul img {
+        width: 70%;
+        height: 25px;
+    }
+    .boxInColumn-12 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .boxInColumn-12 a {
+        display: flex;
+        flex-direction: row;
+        margin: 5px 5px 5px 0;
+    }
+    .boxInColumn-12 p {
+        margin-left: 2px;
+    }
+
+    /*Buttom Header*/
+    .choiseList, .navBar, .searchWithTypes, .search, .submit, .basket{
+        display: none;
+    }
+    .buttomHeader {
+        justify-content: center;
+    }
+    .buttomHeader img {
+        height: 80%;
+        width: 100%;
+    }
+    .underButtomHeaderMobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 51px;
+        width: 100%;
+        background-color: rgb(37, 37, 41);
+        padding-top: 8px;
+    }
+    .searchWithTypesMobile {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+    }
+    .choiseSearchTypeMobile select {
+        height: 35px;
+        width: 40px;
+        background-color: blue;
+        color: white;
+        border-radius: 5px 0 0 5px;
+    }
+    .searchMobile {
+        height: 35px;
+        width: 80%;
+    }
+    .inputSearchMobile {
+        height: 35px;
+        width: 100%;
+    }
+    .submitMobile {
+        height: 35px;
+        width: 15%;
+    }
+    .submitMobile img{
+        height: 35px;
+        width: 100%;
+        border-radius: 0 5px 5px 0;
+    }
+    .basketMobile img {
+        height: 75%;
+        width: 100%;
+    }
+    .narBarMobile {
+        margin-right: 5px;
+    }
+    .basketMobile {
+        width: 10%;
+        height: 90%;
+        margin-left: 5px;
+        margin-top: 3px;
+    }
 }
