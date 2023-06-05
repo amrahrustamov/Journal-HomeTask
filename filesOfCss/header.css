@@ -64,6 +64,9 @@ p {
 img {
     background-color: white;
 }
+.boxInRightColumn-6 a {
+    width: 30%;
+}
 .boxInRightColumn-6 p {
     margin-right: 10px;
 }
@@ -206,18 +209,18 @@ background-color: rgb(47, 45, 56);
         display: flex;
         flex-direction: row;
         justify-content: center;
-        list-style-type: noen;
+        list-style-type: none;
         width: 100%;
         height: 35px;
     }
-    .boxInColumn-12 ul img {
-        width: 70%;
-        height: 25px;
+    .boxInColumn-12 ul li a img {
+        width: 30px;
+        height: 30px;       
     }
     .boxInColumn-12 {
-        width: 100%;
         display: flex;
         justify-content: center;
+        width: 90%;
     }
     .boxInColumn-12 a {
         display: flex;
@@ -226,6 +229,7 @@ background-color: rgb(47, 45, 56);
     }
     .boxInColumn-12 p {
         margin-left: 2px;
+        font-size: 6px;
     }
 
     /*Buttom Header*/
