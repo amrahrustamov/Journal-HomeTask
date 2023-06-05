@@ -103,3 +103,10 @@
     display: flex;
     flex-direction: column;
 }
+.leftScrool img:hover {
+    background-color: rgb(109, 104, 104);
+}
+.rightScrool img:hover {
+    background-color: rgb(109, 104, 104);
+}
+
